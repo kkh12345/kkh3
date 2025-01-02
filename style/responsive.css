@@ -1,0 +1,196 @@
+@media screen and (max-width: 1024px) {
+  #root {
+    flex-direction: column;
+  }
+
+  .section-inner {
+    width: 90%;
+    margin: 0;
+  }
+
+  .root-in-left,
+  .root-in-right {
+    width: 100%;
+    transition: none;
+  }
+
+  .root-in-left {
+    order: 1;
+  }
+
+  .root-in-right {
+    bottom: auto;
+    background-color: #000;
+    border-left: none;
+  }
+
+  .root-in-right > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    column-gap: 50px;
+    row-gap: 10px;
+    position: static;
+    transform: translateY(0);
+  }
+  .root-in-right.hide {
+    display: none;
+  }
+  .root-in-right > ul > li {
+    white-space: initial;
+    word-break: break-all;
+  }
+
+  .right-menu:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .right-menu::before {
+    display: none;
+  }
+
+  .right-menu > a {
+    font-size: 20px;
+    font-family: 'Noto Sans KR';
+  }
+
+  .right-menu > a:hover {
+    transform: scale(1.05);
+  }
+
+  .right-menu.active > a {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  /* 홈 섹션 */
+  .home-area .intro-box {
+    flex-direction: column;
+    row-gap: 48px;
+    text-align: center;
+  }
+
+  .home-area .intro-text {
+    font-size: 30px;
+  }
+
+  .home-area .intro-avatar-wrap {
+    margin-right: 0;
+  }
+
+  .home-area .intro-avatar-wrap > img {
+    transition: none;
+    max-width: 140px;
+  }
+
+  .projects-area .slide-area {
+    padding: 0px 10%;
+  }
+
+  .projects-area .slide-button > img {
+    width: 24px;
+  }
+
+  .projects-area .slide-button.next {
+    width: 24px;
+    right: 0;
+    transform: translateX(0);
+  }
+
+  .projects-area .slide-button.prev {
+    width: 24px;
+    left: 0;
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .section-title {
+    font-size: 40px;
+  }
+
+  .paragraph-title {
+    font-size: 26px;
+  }
+
+  .paragraph-subtitle {
+    font-size: 18px;
+  }
+
+  .paragraph-basic,
+  .card-desc {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .section-inner,
+  .root-in-right > ul {
+    width: 85%;
+  }
+
+  .root-in-right > ul {
+    column-gap: 30px;
+  }
+
+  /* 홈 섹션 */
+  .home-area {
+    height: 100vh;
+  }
+
+  .home-area .intro-avatar-wrap > img {
+    min-width: 120px;
+  }
+
+  .home-area .intro-text {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  section {
+    height: auto;
+  }
+  .section-inner {
+    padding: 30px 0;
+  }
+  .root-in-right > ul {
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+
+  .right-menu > a,
+  .right-menu.active > a {
+    font-size: 16px;
+  }
+
+  .projects-area .slide-button > img {
+    width: 20px;
+  }
+  .education-area .paragraph-title {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+  .education-area .graduate {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .root-in-right > ul {
+    flex-wrap: wrap;
+    column-gap: 10px;
+    height: auto;
+    padding: 20px 0;
+  }
+  .projects-area .card-img-wrap > img {
+    height: 150px;
+  }
+}

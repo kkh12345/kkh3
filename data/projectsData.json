@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "src": "img/공공기관리뉴얼.png",
+    "title": "공공기관 리뉴얼",
+    "team": false,
+    "desc": "공공기관 리뉴얼 프로젝트 입니다.",
+    "skills": ["HTML5", "CSS3", "JavaScript"],
+    "githubLink": "https://github.com/kkh12345/kkh1",
+    "readmoreLink": "#none"
+  },
+  {
+    "id": 1,
+    "src": "img/한집두끼.png",
+    "title": "한집두끼",
+    "team": false,
+    "desc": "한집두끼 프로젝트 입니다.",
+    "skills": ["HTML5", "CSS3", "JavaScript", "Swiper"],
+    "githubLink": "#none",
+    "readmoreLink": "#none"
+  },
+  {
+    "id": 2,
+    "src": "img/인터파크티켓리뉴얼.png",
+    "title": "인터파크티켓 리뉴얼",
+    "team": true,
+    "desc": "인터파크티켓 리뉴얼 프로젝트 입니다.",
+    "skills": ["HTML5", "CSS3", "JavaScript", "Swiper"],
+    "githubLink": "https://github.com/kkh12345/kkh2",
+    "readmoreLink": "#none"
+  },
+  {
+    "id": 3,
+    "src": "img/고경현의포트폴리오.png",
+    "title": "고경현의 포트폴리오 페이지",
+    "team": false,
+    "desc": "고경현의 포트폴리오 페이지입니다.",
+    "skills": ["HTML5", "CSS3", "JavaScript"],
+    "githubLink": "#none",
+    "readmoreLink": "#none"
+  }
+]
