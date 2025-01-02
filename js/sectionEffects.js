@@ -21,6 +21,7 @@ function sectionEffect() {
     window.addEventListener('scroll', sectionScrollEvent);
   } else {
     window.addEventListener('scroll', resScrollEvent);
+    resScrollEvent();
     finishState();
   }
 
@@ -68,7 +69,7 @@ function sectionEffect() {
 
   function resScrollEvent() {
     handleActiveRightMenu();
-    if (this.scrollY > lastScrollY) {
+    if (this.scrollY >= lastScrollY) {
       if (
         !document.querySelector('.root-in-right').classList.contains('hide')
       ) {
