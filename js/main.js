@@ -6,7 +6,8 @@ function rotateDiamond() {
     ...document.querySelectorAll('section'),
   ];
   rightMenu.forEach((a, i) => {
-    a.addEventListener('click', function () {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
       if (i === 0) {
         window.scrollTo({ top: section0.offsetTop });
       } else if (i === 1) {
