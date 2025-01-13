@@ -2,41 +2,41 @@
   {
     "id": 0,
     "src": "img/공공기관리뉴얼.png",
-    "title": "공공기관 리뉴얼",
+    "title": "한국마약퇴치운동본부 리뉴얼",
     "team": false,
-    "desc": "공공기관 리뉴얼 프로젝트 입니다.",
+    "desc": "웹사이트의 디자인이나 기능을 개선하여 방문자들이 더 직관적이고 편리하게 사이트를 이용할 수 있도록 제작하였습니다.",
     "skills": ["HTML5", "CSS3", "JavaScript"],
     "githubLink": "https://github.com/kkh12345/kkh1",
-    "readmoreLink": "#none"
+    "pageLink": "https://kkh12345.github.io/kkh1/"
   },
   {
     "id": 1,
     "src": "img/한집두끼.png",
-    "title": "한집두끼",
+    "title": "한집두끼 (카페24 디자인 템플릿 이용)",
     "team": false,
-    "desc": "한집두끼 프로젝트 입니다.",
+    "desc": "웹사이트나 앱을 그대로 재현하는 과정을 통해 프로그래밍 언어나 프레임워크 사용법을 익히고, 문제 해결 능력을 기르기 위해 제작하였습니다.",
     "skills": ["HTML5", "CSS3", "JavaScript", "Swiper"],
-    "githubLink": "#none",
-    "readmoreLink": "#none"
+    "githubLink": "https://github.com/kkh12345/kkh4",
+    "pageLink": "https://kkh12345.github.io/kkh4/"
   },
   {
     "id": 2,
     "src": "img/인터파크티켓리뉴얼.png",
     "title": "인터파크티켓 리뉴얼",
     "team": true,
-    "desc": "인터파크티켓 리뉴얼 프로젝트 입니다.",
+    "desc": "웹사이트의 디자인이나 기능을 개선하여 방문자들이 더 직관적이고 편리하게 사이트를 이용할 수 있도록 제작하였습니다.",
     "skills": ["HTML5", "CSS3", "JavaScript", "Swiper"],
     "githubLink": "https://github.com/kkh12345/kkh2",
-    "readmoreLink": "#none"
+    "pageLink": "https://kkh12345.github.io/kkh2/"
   },
   {
     "id": 3,
     "src": "img/고경현의포트폴리오.png",
     "title": "고경현의 포트폴리오 페이지",
     "team": false,
-    "desc": "고경현의 포트폴리오 페이지입니다.",
+    "desc": "기술 스택, 경험, 프로젝트 등을 소개하면서 저를 효과적으로 표현하기 위해 제작하였습니다.",
     "skills": ["HTML5", "CSS3", "JavaScript"],
-    "githubLink": "#none",
-    "readmoreLink": "#none"
+    "githubLink": "https://github.com/kkh12345/kkh3",
+    "pageLink": "https://kkh12345.github.io/kkh3/"
   }
 ]

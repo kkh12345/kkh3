@@ -23,10 +23,19 @@ function rotateDiamond() {
         this.style.setProperty('--rotate-diamond', '135deg');
       }
     });
-    a.addEventListener('mouseout', function () {
+    a.addEventListener('mouseleave', function () {
       if (!this.classList.contains('active')) {
         this.style.setProperty('--rotate-diamond', '45deg');
       }
+    });
+  });
+}
+//Contact 펼치기
+openContactContent();
+function openContactContent() {
+  document.querySelectorAll('.contact-box').forEach((a) => {
+    a.addEventListener('click', function () {
+      this.classList.toggle('open');
     });
   });
 }

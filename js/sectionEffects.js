@@ -42,28 +42,63 @@ function sectionEffect() {
   }
 
   function handleActiveRightMenu() {
-    rightMenu.forEach((a) => {
-      if (a.classList.contains('active')) {
-        a.classList.remove('active');
-      }
-    });
     if (
       0 <= this.scrollY &&
       this.scrollY < section1.offsetTop - section0.offsetHeight * 0.25
     ) {
-      rightMenu[0].classList.add('active');
+      rightMenu.forEach((a, i) => {
+        if (i === 0) {
+          if (!a.classList.contains('active')) {
+            rightMenu[0].classList.add('active');
+          }
+        } else {
+          if (a.classList.contains('active')) {
+            a.classList.remove('active');
+          }
+        }
+      });
     } else if (
       section1.offsetTop - section0.offsetHeight * 0.25 <= this.scrollY &&
       this.scrollY < section2.offsetTop - section1.offsetHeight * 0.25
     ) {
-      rightMenu[1].classList.add('active');
+      rightMenu.forEach((a, i) => {
+        if (i === 1) {
+          if (!a.classList.contains('active')) {
+            rightMenu[1].classList.add('active');
+          }
+        } else {
+          if (a.classList.contains('active')) {
+            a.classList.remove('active');
+          }
+        }
+      });
     } else if (
       section2.offsetTop - section1.offsetHeight * 0.25 <= this.scrollY &&
       this.scrollY < section3.offsetTop - section2.offsetHeight * 0.25
     ) {
-      rightMenu[2].classList.add('active');
+      rightMenu.forEach((a, i) => {
+        if (i === 2) {
+          if (!a.classList.contains('active')) {
+            rightMenu[2].classList.add('active');
+          }
+        } else {
+          if (a.classList.contains('active')) {
+            a.classList.remove('active');
+          }
+        }
+      });
     } else {
-      rightMenu[3].classList.add('active');
+      rightMenu.forEach((a, i) => {
+        if (i === 3) {
+          if (!a.classList.contains('active')) {
+            rightMenu[3].classList.add('active');
+          }
+        } else {
+          if (a.classList.contains('active')) {
+            a.classList.remove('active');
+          }
+        }
+      });
     }
   }
 
