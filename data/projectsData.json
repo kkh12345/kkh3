@@ -38,5 +38,15 @@
     "skills": ["HTML5", "CSS3", "JavaScript"],
     "githubLink": "https://github.com/kkh12345/kkh3",
     "pageLink": "https://kkh12345.github.io/kkh3/"
+  },
+  {
+    "id": 4,
+    "src": "img/moani.png",
+    "title": "MOANI 가구 쇼핑몰(미완성)",
+    "team": false,
+    "desc": "기술 스택, 경험, 프로젝트 등을 소개하면서 저를 효과적으로 표현하기 위해 제작하였습니다. ",
+    "skills": ["React", "CSS3"],
+    "githubLink": "#none",
+    "pageLink": "#none"
   }
 ]

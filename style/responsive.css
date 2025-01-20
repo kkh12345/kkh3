@@ -156,6 +156,9 @@
   .projects-area .hover-box {
     display: none;
   }
+  .education-area .paragraph02 li.show::before {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 530px) {
