@@ -123,6 +123,7 @@
   .paragraph-basic,
   .projects-area .card-desc {
     font-size: 15px;
+    padding-left:0;
   }
 
   .card-title {
@@ -156,6 +157,7 @@
   .projects-area .hover-box {
     display: none;
   }
+
   .education-area .paragraph02 li.show::before {
     display: none;
   }
